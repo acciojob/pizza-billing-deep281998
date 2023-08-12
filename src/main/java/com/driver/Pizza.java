@@ -71,7 +71,7 @@ public class Pizza {
         if(extratopping == true && isVeg == true){
             this.bill += "Extra Toppings Added: 70\n";
         }
-        else {
+        else if(isVeg == false && extratopping == true) {
             this.bill += "Extra Toppings Added: 120\n";
         }
         if(takeaway)
