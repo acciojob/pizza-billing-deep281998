@@ -5,11 +5,11 @@ public class Pizza {
     private int price;
     private Boolean isVeg;
     private String bill;
-    private Boolean extracheese = false;
+    private Boolean extracheese;
 
-    private Boolean extratopping = false;
+    private Boolean extratopping;
 
-    private Boolean takeaway = false;
+    private Boolean takeaway;
 
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
@@ -19,6 +19,9 @@ public class Pizza {
         else {
             this.price = 400;
         }
+        this.extracheese=false;
+        this.extratopping=false;
+        this.takeaway=false;
         // your code goes here
     }
 
