@@ -39,7 +39,7 @@ public class Pizza {
     public void addExtraToppings(){
         if(extratopping == false){
             if(isVeg){
-                this.price+=80;
+                this.price+=70;
             }
             else {
                 this.price += 120;
@@ -78,7 +78,7 @@ public class Pizza {
         {
             this.bill += "Paperbag Added: 20\n";
         }
-        this.bill += "Total Price: "+getPrice() + "\n";
+        this.bill += "Total Price: "+getPrice()+ "\n";
         return this.bill;
 
         // your code goes here
