@@ -81,7 +81,7 @@ public class Pizza {
         {
             this.bill += "Paperbag Added: 20\n";
         }
-        this.bill += "Total Price: "+getPrice()+ "\n";
+        this.bill += "Total Price: "+getPrice();
         return this.bill;
 
         // your code goes here
