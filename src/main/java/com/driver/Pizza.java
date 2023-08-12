@@ -4,7 +4,7 @@ public class Pizza {
 
     private int price;
     private Boolean isVeg;
-    private String bill;
+    private String bill = "";
     private Boolean extracheese;
 
     private Boolean extratopping;
@@ -68,7 +68,7 @@ public class Pizza {
             this.bill += "Base Price Of The Pizza: 400\n";
         }
 
-        if(extracheese){
+        if(extracheese == true){
             this.bill += "Extra Cheese Added: 80\n";
         }
         if(extratopping == true && isVeg == true){
